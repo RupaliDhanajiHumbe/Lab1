@@ -1,26 +1,44 @@
+package main;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Student {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-                   Scanner s=new Scanner(System.in);
+
+		Scanner s=new Scanner(System.in);
 	    System.out.println("enter the value of 5 subject");
-	    int a=s.nextInt();
-	    int b=s.nextInt();
-	    int c=s.nextInt();
-	    int d=s.nextInt();
-	    int e=s.nextInt();
-	    int f=a+b+c+d+e;
-	    System.out.println("Addition the 5 subject" +f);
-	    if(f>450)
+	    float a=s.nextInt();
+	    float b=s.nextInt();
+	    float c=s.nextInt();
+	    float d=s.nextInt(); 
+	    float e=s.nextInt();
+	    
+	    float total=a+b+c+d+e;
+	    float Precentage=((total/500)*100);
+	    System.out.println("Persentage="+Precentage+"%");
+	    if(Precentage>90)
 	    {
 	       System.out.println("Grade A");
 	    }
+	    else if(Precentage>70)
+	    {
+	       System.out.println("Grade B");
+	    }
+
+	    else if(Precentage>50)
+	    {
+	       System.out.println("Grade C");
+	    }
+	    else if(Precentage>35)
+	    {
+	       System.out.println("Grade PASS");
+	    }
+
+		
 
 	}
 
 }
-
