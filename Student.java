@@ -32,9 +32,9 @@ public class Student {
 	    {
 	       System.out.println("Grade C");
 	    }
-	    else if(Precentage>35)
+	    else 
 	    {
-	       System.out.println("Grade PASS");
+	       System.out.println("Fail");
 	    }
 
 		
