@@ -8,12 +8,15 @@ public class foreach {
 		// TODO Auto-generated method stub
 		
 		String[] car= {"swift","Mazda"};
+		
 		for(int i=0;i<car.length;i++)
 		{
 			
 			System.out.println(car[i]);
 	}
 		System.out.println(" ");
+		
+		
 		
 		
 		for(String name:car)

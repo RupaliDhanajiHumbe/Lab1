@@ -17,7 +17,6 @@ public class Game {
 		 {
 		   if(num%2==1 || num<=8)
 		   {
-			
 			System.out.println("Color box is black");
 			num++;
 		   }
