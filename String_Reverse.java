@@ -6,7 +6,6 @@ public class String_Reverse {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the String 1st=");
@@ -34,8 +33,7 @@ public class String_Reverse {
 		
 		
 		
-		System.out.println("Enter the String 2nd=");
-		String str4=s.nextLine();
+		String str4="I am java Student";
 		String[] arr2=str4.split(" ");
 		String temp1=" ";
 		for(int i=0;i<arr2.length;i++)
