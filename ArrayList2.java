@@ -1,7 +1,7 @@
 package B;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ArrayList2 {
@@ -23,7 +23,7 @@ public class ArrayList2 {
 		System.out.println(arr);        //print all element
 		
 		arr.forEach(x->System.out.println(x));
-		System.out.println("\n");
+		System.out.println("\n\n");
 		
 		//OR 
 		
@@ -39,14 +39,16 @@ public class ArrayList2 {
 			System.out.println("Number="+a);	
 		});
 	
-		
+		System.out.println("\n");
 		//OR
 		
-		ArrayList<String> arr2=Arrays.asList("Rupa","Ram","Rahul");
+		ArrayList<String> arr2 = new ArrayList<>(Arrays.asList("Rupa", "Ram", "Rahul"));
         
 		arr2.forEach(b->System.out.println(b));             //1.way iterate
+		System.out.println("\n");
 		
 		arr2.forEach(System.out::println);                     //2nd way iterate
+		System.out.println("\n");
 		
 		for(String num:arr2)                                 //3nd way iterate
 		{
