@@ -1,9 +1,10 @@
 package B;
 
-public class NegativeNumberException extends Exception 
-{
-		 public NegativeNumberException(String message)
-			{
-				 super(message);
-		   }
+public class NegativeNumberException {
+
+	public NegativeNumberException(String massage) 
+	{
+		super(massage);
+		
 	}
+}
