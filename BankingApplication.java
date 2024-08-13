@@ -16,10 +16,10 @@ class NegativeAmountException extends Exception
 	}
 }
 
-class BankAccount
+class BankAccount1
 {
 	double balance;
-	public BankAccount(double balance)
+	public BankAccount1(double balance)
 	{
 		this.balance=balance;
 	}
@@ -57,7 +57,7 @@ public class BankingApplication {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		BankAccount BA=new BankAccount(1500.0);
+		BankAccount1 BA=new BankAccount1(1500.0);
 		
 		try
 		{

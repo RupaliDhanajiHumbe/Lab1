@@ -50,7 +50,7 @@ public class StudentManagement {
 
 		List<Student> students=new ArrayList<>();
 		Scanner s=new Scanner(System.in);
-		while(true)
+		while(true)									
 		{
 		  System.out.println("Enter your choice 1.add student 2.display student 3.update student 4.delete student ");
 		  int input=s.nextInt();
